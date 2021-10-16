@@ -1,0 +1,25 @@
+{
+  "name": "programmingfire-theme",
+  "displayName": "ProgrammingFire Theme",
+  "description": "Theme Made By ProgrammingFire",
+  "publisher": "ProgrammingFire",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/programmingfire/programmingfire-theme"
+  },
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ProgrammingFire Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ProgrammingFire Theme-color-theme.json"
+      }
+    ]
+  }
+}
